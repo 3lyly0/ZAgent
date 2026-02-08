@@ -1,0 +1,30 @@
+{
+  "model": "GLM-4-6-API-V1",
+  "features": {
+    "preview_mode": true,
+    "enable_thinking": false,
+    "image_generation": false,
+    "web_search": true,
+    "auto_web_search": false,
+    "flags": []
+  },
+  "runtime": {
+    "show_thinking": true,
+    "thinking_color": "gray"
+  },
+  "tools": {
+    "enabled": [
+      "shell",
+      "file_read",
+      "file_write",
+      "report"
+    ],
+    "max_iterations": 25,
+    "auto_discover": true,
+    "shell": {
+      "auto_approve": true,
+      "use_docker": true,
+      "container_name": "epic-recon"
+    }
+  }
+}
